@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862546434592",
+    "firebase_url": "https://tasgps-1.firebaseio.com",
+    "project_id": "tasgps-1",
+    "storage_bucket": "tasgps-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862546434592:android:9b499079444e3676",
+        "android_client_info": {
+          "package_name": "com.example.tasgps1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862546434592-87pdapvv4qns3jro8lltdc8sg4nkc4fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tasgps1",
+            "certificate_hash": "aebbf14eda2179d4995655632a5b173f73f57c22"
+          }
+        },
+        {
+          "client_id": "862546434592-j3hjsmucu3q1o8mqlosbqb4a653g6nui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmZA5KXxUAKlKkuVvqj47E-Rf4UJ3HoBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862546434592-j3hjsmucu3q1o8mqlosbqb4a653g6nui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

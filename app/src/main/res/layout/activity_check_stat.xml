@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckStat"
+    android:background="@drawable/background">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/selectUsername2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Select User Email" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/selectUsername2"
+        android:id="@+id/temp20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:paddingLeft="3dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="Select CheckIn Date"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectDate3"
+            android:text="01/01/2020"
+            android:textSize="20sp"/>
+        <ImageView
+            android:layout_below="@id/selectDate"
+            android:background="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:layout_width="294dp"
+            android:layout_height="2.3dp"
+            android:layout_marginLeft="3dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/temp20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temp21"/>
+
+    <TextView
+
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/temp21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temp22"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/temp22"
+        android:id="@+id/checkStat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:background="@color/colorAccent"/>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Attend2_Fragment"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/addSchd"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:text="Add User Schedule"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/addschd"/>
+    <Button
+        android:layout_below="@id/addSchd"
+        android:id="@+id/checkStat"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:text="Check User Status"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/checkstatus"/>
+
+</RelativeLayout>
