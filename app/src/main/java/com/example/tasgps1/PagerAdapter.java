@@ -1,9 +1,4 @@
 package com.example.tasgps1;
-/* Created By Adittya Raj
-  email:raj21adittya@gmail.com
-  This is a personal project(Github Repository)
-  Public Distribution without permission is strictly denied.
- */
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
